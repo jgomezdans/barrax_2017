@@ -7,6 +7,7 @@ from pytest import fixture, raises
 
 from prospect_experiments import prospect_lklhood
 from prospect_experiments import max_lklhood
+from prospect_experiments import calculate_prior
 
 
 def test_prospect_refl_vector_lklhood():
@@ -76,7 +77,8 @@ def test_max_lklhood_refl():
     rho_unc = np.eye(2101)
     tau_unc = np.eye(2101)
     
-    retval = max_lklhood(x, rho_meas, rho_unc, tau=None, tau_unc=None)
+    retval = max_lklhood(x, rho_meas, rho_unc, tau=None, tau_unc=None,
+                         do_plot=False)
     assert np.allclose( retval.x, np.array([  2.76297742e+00,   
                                             2.19876369e+01,   1.00000000e+00,
                                             1.11741590e-01,   1.65242763e-02,
@@ -90,8 +92,19 @@ def test_max_lklhood_tau():
     rho_unc = np.eye(2101)
     tau_unc = np.eye(2101)
     
-    retval = max_lklhood(x, rho_meas, rho_unc, tau=tau_meas, tau_unc=tau_unc)
+    retval = max_lklhood(x, rho_meas, rho_unc, tau=tau_meas, tau_unc=tau_unc,
+                         do_plot=False)
     assert np.allclose( retval.x, np.array([  2.75101612e+00,   2.19855356e+01,
                                             1.00000000e+00,   1.07894421e-01,
                                             1.64960121e-02,   1.10114465e-02,
                                             6.55246141e-01]))
+    
+    
+def test_prior():
+    x = np.array([2.5, 20., 0., 0.1, 0.015, 0.01, 1.])
+    mu = np.array([2.0, 40., 10., 0.1, 0.015, 0.01, 1.])
+    cov = np.eye(7)
+    
+    lprior = calculate_prior(x, mu, cov)
+    assert np.allclose( lprior, 0.5*np.sum((x-mu)**2))
+    
