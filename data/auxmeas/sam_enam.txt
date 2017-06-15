@@ -1,0 +1,65 @@
+    LOPEX93	List of samples prepared for analyses (English) SAM_ENAM.TXT
+    ________________________________________________________________________
+    No. |  Sample type	       |	   | No. |  Sample type       |
+    ____|______________________|	   |_____|____________________|
+    01	|  Clover	       |	   | 61  |  Wood shavings     |
+    02	|  Sorghetta	       |	   | 62  |  Hazelnut 2/2      |
+    03	|  Norway spruce 91    |	   | 63  |  Soy Lecithin      |
+    04	|  Wild vines 1/2      |	   | 64  |  Ecofoam (maize)   |
+    05	|  Ash 1/2	       |	   | 65  |  Cotton wool       |
+    06	|  Lettuce	       |	   | 66  |  Potato starch     |
+    07	|  Douglas fir 93      |	   | 67  |  Rice starch       |
+    08	|  Laurel ceraso old   |	   | 68  |  Maize starch      |
+    09	|  Norway spruce 92    |	   | 69  |  Wheat starch      |
+    10	|  Poplar  1/3	       |	   | 70  |  Bran	      |
+    11	|  Alfalfa	       |	   | 71  |  Linden	      |
+    12	|  Maize 1	       |	   | 72  |  Contorta Pine     |
+    13	|  Potatoes	       |	   | 73  |  Poplar	      |
+    14	|  Wild vines 2/2      |	   | 74  |  Douglas Fir       |
+    15	|  Ash 2/2	       |	   | 75  |  Oak 	      |
+    16	|  Maize 3 1/2	       |	   | 76  |  Alder	      |
+    17	|  Contorta Pine       |	   | 77  |  Maize 1/2	      |
+    18	|  Champignons Paris   |	   | 78  |  Maize dry	      |
+    19	|  Laurel ceraso young |	   | 79  |  Red oak 1/2       |
+    20	|  Beech 1/2	       |	   | 80  |  Maize 2/2	      |
+    21	|  Laurel nob. old 1/2 |	   | 81  |  Maize half dry    |
+    22	|  False Acacia 1/2    |	   | 82  |  Red oak 2/2       |
+    23	|  Oak 1/2	       |	   | 83  |  Hazelnut  2       |
+    24	|  Sunflower	       |	   | 84  |  Chestnut dry      |
+    25	|  Linden	       |	   | 85  |  Maple 2	      |
+    26	|  Maize 3 2/2	       |	   | 86  |  Sage	      |
+    27	|  Walnut (no stem)    |	   | 87  |  Fig 	      |
+    28	|  Walnut	       |	   | 88  |  Bamboo 1	      |
+    29	|  Poplar 2/3	       |	   | 89  |  Palm	      |
+    30	|  Beech 2/2	       |	   | 90  |  Lake reeds	      |
+    31	|  Laurel nob. old 2/2 |	   | 91  |  Bamboo 2	      |
+    32	|  False Acacia 2/2    |	   | 92  |  Apricot 2	      |
+    33	|  Oak 2/2	       |	   | 93  |  Elm 	      |
+    34	|  Maize stalks        |	   | 94  |  Ivy 	      |
+    35	|  Alfalfa stalks      |	   | 95  |  Maize stalks  2   |
+    36	|  Sugar beet 1/2      |	   | 96  |  Norway spruce 93  |
+    37	|  Nettles	       |	   | 97  |  False Acacia 2    |
+    38	|  Norway Spruce 93    |	   | 98  |  Prunus serotina   |
+    39	|  Poplar 3/3	       |	   | 99  |  Ash 2	      |
+    40	|  Rice 1/2	       |	   |100  |  Cabbage	      |
+    41	|  Phleum pratense     |	   |101  |  Bhutan pine       |
+    42	|  Rye 1/2	       |	   |102  |  Iris	      |
+    43	|  Wheat salmone 1/2   |	   |103  |  Vine (white)      |
+    44	|  Wheat pandas 1/2    |	   |104  |  Mulberry 2	      |
+    45	|  Soy		       |	   |105  |  Willow	      |
+    46	|  Sugar beet 2/2      |	   |106  |  Vine (american)   |
+    47	|  Wheat pandas 2/2    |	   |107  |  Bananna	      |
+    48	|  Wheat salmone 2/2   |	   |108  |  Norway Spruce 92  |
+    49	|  Rye 2/2	       |	   |109  |  Alfalfa stalks 2  |
+    50	|  Rice 2/2	       |	   |110  |  Rice stalks       |
+    51	|  Maple 1/2	       |	   |111  |  Chestnut 2	      |
+    52	|  Maple 2/2	       |	   |112  |  Birch	      |
+    53	|  Sunflower stalks    |	   |113  |  Alfalfa 2	      |
+    54	|  Apricot	       |	   |114  |  Tomato	      |
+    55	|  Mulberry 1/2        |	   |115  |  Soy 2	      |
+    56	|  Plane bark	       |	   |116  |  Rice dry leaves   |
+    57	|  Mulberry 2/2        |	   |117  |  Rice whole grain  |
+    58	|  Maize 2	       |	   |118  |  Rice husks	      |
+    59	|  Chestnut	       |	   |119  |  Rice whole grain  |
+    60	|  Hazelnut 1/2        |	   |120  |  Rice parboiled    |
+    ____|______________________|___________|_____|____________________|

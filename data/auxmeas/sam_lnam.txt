@@ -1,0 +1,65 @@
+    LOPEX93    List of samples prepared for analyses (Latin) SAM_LNAM.TXT
+    _____________________________________________________________________
+    No.| Sample type	      | 	  | No.|  Sample type	      |
+    ___|______________________| 	  |____|______________________|
+    01 | Trifolium pratense L.| 	  | 61 | xx		      |
+    02 | Sorghum halepense    | 	  | 62 | Corylus avellana L.  |
+    03 | Picea abies  91      | 	  | 63 | xx		      |
+    04 | Vitis silvestris 1/2 | 	  | 64 | xx		      |
+    05 | Fraxinus excelsior L.| 	  | 65 | Lanugo 	      |
+    06 | Lactuca sativa       | 	  | 66 | Amylum solanaceum    |
+    07 | Pseudotsuga menziesii| 	  | 67 | Amylum ex oryza      |
+    08 | Prunus laurocerasus  | 	  | 68 | Amylum ex mays       |
+    09 | Picea abies 92       | 	  | 69 | Amylum triticeum     |
+    10 | Populus canadensis   | 	  | 70 | Furfures triticei    |
+    11 | Medicago sativa L.   | 	  | 71 | Tilia platyphyllos   |
+    12 | Zea mays L. 1	      | 	  | 72 | Pinus contorta       |
+    13 | Solanum tuberosum L. | 	  | 73 | Populus tremula L.   |
+    14 | Vitis silvestris 2/2 | 	  | 74 | Pseudotsuga menziesii|
+    15 | Fraxinus excelsior L.| 	  | 75 | Quercus pubescens    |
+    16 | Zea mays L. 3 1/2    | 	  | 76 | Alnus glutinosa      |
+    17 | Pinus contorta       | 	  | 77 | Zea mays L. 1/2      |
+    18 | Psalliota hortensis  | 	  | 78 | Zea mays L.	      |
+    19 | Prunus laurocerasus  | 	  | 79 | Quercus rubra	1/2   |
+    20 | Fagus sylvatica L.   | 	  | 80 | Zea mays L. 2/2      |
+    21 | Laurus nobilis L.    | 	  | 81 | Zea mays L.	      |
+    22 | Robinia pseudoacacia | 	  | 82 | Quercus rubra	2/2   |
+    23 | Quercus pubescens    | 	  | 83 | Corylus avellana L. 2|
+    24 | Helianthus annuus L. | 	  | 84 | Castanea sativa      |
+    25 | Tilia platyphyllos   | 	  | 85 | Acer pseudoplatanus 2|
+    26 | Zea mais L. 3 2/2    | 	  | 86 | Salvia officinalis L.|
+    27 | Juglans regia L.     | 	  | 87 | Ficus carica L.      |
+    28 | Juglans regia L.     | 	  | 88 | Bambusa acundinacea 1|
+    29 | Populus canadensis   | 	  | 89 | Chamaerops humilis   |
+    30 | Fagus sylvatica L.   | 	  | 90 | Phragmites communis  |
+    31 | Laurus nobilis L.    | 	  | 91 | Bambusa acundinacea 2|
+    32 | Robinia pseudoacacia | 	  | 92 | Armeniaca vulgaris 2 |
+    33 | Quercus pubescens    | 	  | 93 | Ulmus glabra	      |
+    34 | Zea mays L.	      | 	  | 94 | Hedera helix L.      |
+    35 | Medicago sativa L.   | 	  | 95 | Zea mays L. 2	      |
+    36 | Beta vulgaris L. 1/2 | 	  | 96 | Picea abies 93       |
+    37 | Urtica dioica L.     | 	  | 97 | Robinia pseudoacacia |
+    38 | Picea abies 93       | 	  | 98 | Prunus serotina 2    |
+    39 | Populus canadensis   | 	  | 99 | Fraxinus excelsior L.|
+    40 | Oryza sativa 1/2     | 	  |100 | Brassica oleracea L. |
+    41 | Phleum pratense L.   | 	  |101 | Pinus wallichiana    |
+    42 | Secale cereale 1/2   | 	  |102 | Iris germanica L.    |
+    43 | Triticum  1/2	      | 	  |103 | Vitis vinifera L.    |
+    44 | Triticum  1/2	      | 	  |104 | Morus alba L. 2      |
+    45 | Soja hispida	      | 	  |105 | Salix alba L.	      |
+    46 | Beta vulgaris L. 2/2 | 	  |106 | Vitis vinifera L.    |
+    47 | Triticum  2/2	      | 	  |107 | Musa ensete	      |
+    48 | Triticum	      | 	  |108 | Picea abies 92       |
+    49 | Secale cereale 2/2   | 	  |109 | Medicago sativa L. 2 |
+    50 | Oryza sativa  2/2    | 	  |110 | Oryza sativa	      |
+    51 | Acer pseudoplatanus  | 	  |111 | Castanea sativa 2    |
+    52 | Acer pseudoplatanus  | 	  |112 | Betula alba L.       |
+    53 | Helianthus annuus L. | 	  |113 | Medicago sativa L. 2 |
+    54 | Armeniaca vulgaris   | 	  |114 | Lycopersicum esculen.|
+    55 | Morus nigra 1/2      | 	  |115 | Soja hispida  2      |
+    56 | Platanus acerifolia  | 	  |116 | Oryza foliis siccis  |
+    57 | Morus nigra 2/2      | 	  |117 | Oryza int.cum glumis |
+    58 | Zea mays L. 2	      | 	  |118 | Oryza (glumae)       |
+    59 | Castanea sativa      | 	  |119 | Oryza (integra)      |
+    60 | Corylus avellana L.  | 	  |120 | Oryza (parboiled)    |
+    ___|______________________|___________|____|______________________|
