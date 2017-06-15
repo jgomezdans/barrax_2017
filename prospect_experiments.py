@@ -10,6 +10,25 @@ import matplotlib.pyplot as plt
 import prosail
 
 
+def fwd_model(x, rho_std, tau_std, do_plot=True):
+    wv, rho_pred, tau_pred = prosail.run_prospect(x[0], x[1], x[2], 
+            x[3], x[4], x[5], ant=x[6])
+    rho_noise = np.random.randn(len(wv))*rho_std
+    rho_meas = rho_pred + rho_noise
+
+    tau_noise = np.random.randn(len(wv))*tau_std
+    tau_meas = tau_pred + tau_noise
+    
+    tau_std *= np.ones(2101)
+    rho_std *= np.ones(2101)
+
+    if do_plot:
+        plot_spectra(rho_meas, rho_std, tau_meas, tau_std, 
+                 rho_pred=None, tau_pred=None)
+
+    
+    return rho_meas, tau_meas
+
 def cov2corr(cov, return_std=False):
     '''convert covariance matrix to correlation matrix
 
@@ -99,7 +118,7 @@ def make_pretty(axs):
     axs.spines['top'].set_visible(False)    
  
  
-def read_lopex_sampe(sample_id, do_plot=True):
+def read_lopex_sample(sample_id, do_plot=True):
     
     if sample_id < 1 or sample_id > 116:
         raise ValueError("Only sample numbers between 1 and 116")
