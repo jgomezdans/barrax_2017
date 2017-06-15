@@ -6,8 +6,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 import prosail
-def angular_effect(sza, emv, ems, tveg_sun, tsoil_sun, tveg_shade, tsoil_shade,
-                    lai, lidf, hspot = 0.05, lam=9.5, raa=0.):
+def angular_effect(emv, ems, tveg_sun, tsoil_sun, tveg_shade, tsoil_shade,
+                    lai, lidf, hspot = 0.05, lam=9.5, sza=0., raa=0.):
 
     canopy_temp = []
     canopy_emissivity = []
