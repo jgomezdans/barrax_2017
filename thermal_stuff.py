@@ -7,7 +7,7 @@ import matplotlib.pyplot as plt
 
 import prosail
 def angular_effect(emv, ems, tveg_sun, tsoil_sun, tveg_shade, tsoil_shade,
-                    lai, lidf, hspot = 0.05, lam=9.5, sza=0., raa=0.):
+                   t_atm, lai, lidf, hspot = 0.05, lam=9.5, sza=0., raa=0.):
 
     canopy_temp = []
     canopy_emissivity = []
@@ -16,7 +16,7 @@ def angular_effect(emv, ems, tveg_sun, tsoil_sun, tveg_shade, tsoil_shade,
     for vza in np.linspace(0,90):
         
         r, tcan, emis = prosail.run_thermal_sail(lam,  
-                     tveg, tsoil, tveg_hot, tsoil_hot, t_atm, 
+                     tveg_shade, tsoil_shade, tveg_sun, tsoil_sun, t_atm, 
                      lai, lidfa, hspot,  
                      sza, vza, raa, emv=emv, ems=ems)
         canopy_temp.append(tcan-273.15)
